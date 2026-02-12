@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Happy Valentines Day</title>
+  <head>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/fluent/48/000000/like.png"
+      type="image/png"
+    />
+    <title>Happy Valentines Day</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onload="myFunction() ">
+   <script>
+      function myFunction() {
+        alert("YOU ARE LOVED. In every whispered breeze and every stars above. After this alert box goes, click on the screen - to get a surprise");
+      }
+     function revealLetter() {
+            // Show the letter
+            document.getElementById("letter").style.display = "block";
+     }
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+      </script>
 
-  <link
-    rel="shortcut icon"
-    href="https://img.icons8.com/fluent/48/000000/like.png"
-    type="image/png"
-  />
-
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
-  />
-
-  <link rel="stylesheet" href="style.css" />
-
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-  />
-</head>
-
-<body onload="myFunction()">
-
-  <script>
-    function myFunction() {
-      alert("YOU ARE LOVED. In every whispered breeze and every stars above. After this alert box goes, click on the screen - to get a surprise");
-    }
-
-    function play() {
-      var audio = document.getElementById("audio");
-      audio.play();
-    }
-  </script>
-
-  <div class="container text-center" onclick="play()" style="cursor: pointer;">
+    <embed src="music/Libu-Libong Buwan (Uuwian) - Kyle Raphael (Lyric Visualizer) - Kyle Raphael.mp3" loop="true" autostart="true" width="2" height="0">
     
+    <div class="container" onClick="play()" style="cursor: pointer;">
+      <div class="row d-flex justify-content-center">
+         
+        <div class="col-md-7 col-xs-10 col-lg-7 col-sm-12 text-center">
+</head>
+    <body>
     <div class="intro" id="introText">
       being loved by you is the greatest gift i could ever receive.
-    </div
+    </div>
+    <button class="btn" onclick="showLetter()">Click here</button>
+   <div class="letter" id="letterBox">
+      <p id="typedText"></p>
+   </div>
+    <script src="script.js"></script>
+<head>
+<body>
+            
+<audio controls loop class="music" id="audio">
+      <source src="music/Libu-Libong Buwan (Uuwian) - Kyle Raphael (Lyric Visualizer) - Kyle Raphael.mp3" type="audio/mpeg">
+</audio>
