@@ -1,54 +1,46 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: #993333;}
+{justify-content: center;}
+
+h1 {color: #d8d1c2;}
+{font-family: verdana;}
+{font-size: 350%;}
+
+
+h1 {
+  padding: 15px;
+  margin: 30px;
 }
 
-body {
-  font-family: "Space Mono", monospace;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+p {color: #d8d1c2;}
+{font-family: courier;}
+
+p {
+  margin: 30px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+</style>
+</head>
+<body>
 
-@media (max-width: 900px) {
-  img {
-    max-width: 30%;
-  }
 
-.title h1 {
-  font-weight: bold;
-  font-style: normal;
-  font-size: 42px;
-  margin: 32px 0;
-  color: #45171B;
-  opacity: 1;
-  transition: opacity 1s ease;
-}
+<i><h1>To my safe haven,</h1>
 
-.title h2 {
-  font-style: normal;
-  margin: 32px 0;
-  padding: 0;
-  font-size: 24px;
-  color: #45171B;
-  line-height: 1;
-}
+<p>Whenever this song plays, it feels like my heart is speaking in a language only you understand.
 
-.sender {
-  color: #45171B;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 24px;
-}
+<p>Out of all the people in this world, you are the one I feel peaceful with. Not the kind of feeling that is loud and temporary, but the kind that stays — soft, constant, and sure. The kind of love that doesn’t fade when things get hard, doesn’t disappear when days are quiet, and doesn’t change even when time keeps moving.<p>
 
-.music {
-  display: none;
-}
+If life gives us libu-libong buwan, I don’t want a single one without you in it. Because you are not just part of my present — you are someone I see in my tomorrows, in my plans, in the simple dreams I keep to myself. When I think about where I want to be, who I want beside me, my heart doesn’t hesitate. It chooses you.<p>
+
+You are my comfort after long days, my calm in the middle of overthinking, my happiness in the smallest moments. With you, love feels safe. It feels like I don’t have to pretend, don’t have to be afraid, don’t have to question where I stand.<p>
+Even if the world changes, even if seasons come and go, even if time stretches far beyond what we can imagine — my heart already knows where it belongs. It belongs with you.<p>
+
+You are not just someone I love. You are the one my heart will always come home to. 🌙💛.</p>
+
+</body>
+</html>
+
